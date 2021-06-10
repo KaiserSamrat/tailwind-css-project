@@ -13,12 +13,12 @@ import ResDetails from './components/ResDeatils/ResDetails';
 function App() {
   return (
     <div >
-     <Router>
-     <Navbar/>
-     <Header/>
-     <Item/>
-     <ResDetails/>
-     </Router>
+      <Router>
+        <Navbar />
+        <Header />
+        <Item />
+        <ResDetails />
+      </Router>
     </div>
   );
 }
