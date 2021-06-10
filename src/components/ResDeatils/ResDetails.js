@@ -2,6 +2,7 @@ import React from 'react';
 import res1 from '../../images/res1.jpg'
 import res2 from '../../images/res2.jpg'
 import res3 from '../../images/res3.jpg'
+import Pagination from '../Pagination/Pagination';
 const ResDetails = () => {
   return (
     <>
@@ -53,6 +54,7 @@ const ResDetails = () => {
           </div>
         </div>
       </div>
+      <Pagination/>
     </>
   );
 };
