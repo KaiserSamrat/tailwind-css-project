@@ -20,8 +20,8 @@ function App() {
         <Header />
         <Item />
         <ResDetails />
-        <Footer/>
         <Reviews/>
+        <Footer/>
       </Router>
     </div>
   );
