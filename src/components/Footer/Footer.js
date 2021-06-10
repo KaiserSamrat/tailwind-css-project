@@ -6,7 +6,7 @@ const Footer = () => {
   <div class="xl:px-40 pb-12 lg:px-20 md:px-10 sm:px-5 px-10">
     <div class="w-full pt-12 flex flex-col sm:flex-row space-y-2 justify-start">
       <div class="w-full sm:w-2/5 pr-6 flex flex-col space-y-4">
-        <h1 class="opacity-60">YOURFOODIE</h1>
+        <h1 class="opacity-60">YOUFOODIE</h1>
         <p class="opacity-60">Sanmar Ocean city, Chittagong 1209, Bangladesh.</p>
         <p class="opacity-60">Mobile: 01818111111</p>
       </div>
