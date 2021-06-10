@@ -16,10 +16,15 @@ const Pagination = () => {
     <div>
       <p class="text-sm text-gray-700">
         Showing 
+        <span> </span>
         <span class="font-medium">1</span>
+        <span> </span>
         to 
+        <span> </span>
         <span class="font-medium">3</span>
+        <span> </span>
         of 
+        <span> </span>
         <span class="font-medium">100</span>
         results
       </p>

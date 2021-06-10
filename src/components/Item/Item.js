@@ -3,12 +3,13 @@ import Pizza from '../../images/pizza.jpg'
 import Burger from '../../images/burger.jpg'
 import Pasta from '../../images/pasta.jpeg'
 import Sandwich from '../../images/sandwich.jpg'
+import Pagination from '../Pagination/Pagination';
 
 const Item = () => {
     return (
         <>
             <h1 className='m-7 text-center font-bold text-3xl'>Our Food</h1>
-            <div class="flex items-center justify-center">
+            <div class="flex items-center justify-center m-7">
                 <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-1 xl:grid-cols-3">
 
                     <div class="w-80 h-full  relative">
@@ -112,6 +113,7 @@ const Item = () => {
                     </div>
                 </div>
             </div>
+            <Pagination/>
         </>
     );
 };

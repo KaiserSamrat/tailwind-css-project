@@ -9,6 +9,7 @@ import {
 import Header from './components/Header/Header';
 import Item from './components/Item/Item';
 import ResDetails from './components/ResDeatils/ResDetails';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Header />
         <Item />
         <ResDetails />
+        <Footer/>
       </Router>
     </div>
   );

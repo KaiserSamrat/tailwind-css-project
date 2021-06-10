@@ -5,7 +5,7 @@ const Navbar = () => {
   return (
     <nav className='flex justify-between items-center h-16 bg-black text-white relative shadow-sm font-mono'
       role='navigation'>
-      <Link to='/' className='pl-8'>EGG</Link>
+      <Link to='/' className='pl-8'>YOUFOODIE</Link>
       <div className="px-4 cursor-pointer md:hidden">
         <svg
           className='w-8 h-8'
