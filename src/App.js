@@ -10,6 +10,7 @@ import Header from './components/Header/Header';
 import Item from './components/Item/Item';
 import ResDetails from './components/ResDeatils/ResDetails';
 import Footer from './components/Footer/Footer';
+import Reviews from './components/Reviews/Reviews';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <Item />
         <ResDetails />
         <Footer/>
+        <Reviews/>
       </Router>
     </div>
   );
